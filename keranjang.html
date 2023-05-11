@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Keranjang Produk - Website</title>
+    <!-- Load Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Load Custom CSS -->
+    <link rel="stylesheet" href="style/keranjang.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">Website</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li><a href="#">Tentang Kami</a></li>
+            <li><a href="#">Kontak</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <h1>Keranjang Produk</h1>
+      </div>
+    </header>
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Produk</th>
+                <th>Harga</th>
+                <th>Kuantitas</th>
+                <th>Total</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="cart-item">
+                    <img src="https://dummyimage.com/100x100/000/fff" alt="Product 1" class="img-responsive">
+                    <div class="cart-item-info">
+                      <h4>Product 1</h4>
+                      <p>Size: M</p>
+                    </div>
+                  </div>
+                </td>
+                <td>$19.99</td>
+                <td>
+                  <div class="form-group">
+                    <input type="number" class="form-control" value="1" min="1">
+                  </div>
+                </td>
+                <td>$19.99</td>
+                <td><button class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></button></td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="cart-item">
+                    <img src="https://dummyimage.com/100x100/000/fff" alt="Product 2" class="img-responsive">
+                    <div class="cart-item-info">
+                      <h4>Product 2</h4>
+                      <p>Size: L</p>
+                    </div>
+                  </div>
+                </td>
+                <td>$24.99</td>
+                <td>
+                  <div class="form-group">
+                    <input type="number" class="form-control" value="2"
+                    </div>
+                    </td>
+                    <td>$49.98</td>
+                    <td><button class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></button></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="cart-item">
+                        <img src="https://dummyimage.com/100x100/000/fff" alt="Product 3" class="img-responsive">
+                        <div class="cart-item-info">
+                          <h4>Product 3</h4>
+                          <p>Size: XL</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td>$29.99</td>
+                    <td>
+                      <div class="form-group">
+                        <input type="number" class="form-control" value="1" min="1">
+                      </div>
+                    </td>
+                    <td>$29.99</td>
+                    <td><button class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-md-4">
+              <div class="well">
+                <h3>Ringkasan Belanja</h3>
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>Subtotal</td>
+                      <td>$99.96</td>
+                    </tr>
+                    <tr>
+                      <td>Pajak</td>
+                      <td>$9.99</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Total</strong></td>
+                      <td><strong>$109.95</strong></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <a href="#" class="btn btn-primary btn-block">Checkout</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer -->
+        <footer>
+          <div class="container">
+            <p>&copy; 2023 Website. All rights reserved.</p>
+          </div>
+        </footer>
+        <!-- Load Bootstrap JS -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        

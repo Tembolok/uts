@@ -1,0 +1,117 @@
+/* Gaya umum */
+/* Gaya umum */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header a {
+    color: #fff;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Gaya About Me */
+#about-me img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+/* Gaya Contact */
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #333;
+}
+
+.btn-primary {
+    background-color: #333;
+    border: none;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #555;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header a {
+    color: #fff;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Gaya About Me */
+#about-me img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+/* Gaya Contact */
+form label {
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #333;
+}
+
+.btn-primary {
+    background-color: #333;
+    border: none;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #555;
+}
